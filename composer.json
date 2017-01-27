@@ -1,0 +1,24 @@
+{
+    "name": "insperedia/yii2-tree-dropdown",
+    "description": "A dropdown widget containing expandable treeview with checkboxes",
+    "keywords": ["yii2", "extension", "widget", "dropdown", "tree", "checkbox"],
+    "homepage": "https://github.com/insperedia/yii2-tree-dropdown",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Oleg Lemesenko",
+            "email": "oleg@insperedia.com",
+            "homepage": "http://insperedia.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "insperedia\\tree-dropdown\\": ""
+        }
+    }
+}
