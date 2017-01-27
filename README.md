@@ -1,10 +1,11 @@
-# Tree Dropdown #
+# Tree Dropdown
 
 Dropdown with tree or list of checkboxes.
 This is extension for Yii2 framework. 
 
-## Usage ##
+## Usage
 
+```php
 <?php
 echo \insperedia\treedropdown\DropdownTreeWidget::widget(
     [
@@ -21,3 +22,4 @@ echo \insperedia\treedropdown\DropdownTreeWidget::widget(
     ]
 );
 ?>
+```
