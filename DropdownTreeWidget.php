@@ -1,23 +1,21 @@
 <?php
 
-namespace insperedia\treedropdown;
+namespace insperedia\TreeDropdown;
 
 class DropdownTreeWidget extends \yii\base\Widget
 {
-    public $id = 'treeview-dropdown';
-    public $data = [];
-    public $selectedItems = [];
-    public $view = "view";
-    public $text = 'item(s)';
+    public $model;
+    public $attribute;
+
+    public $data = null;
 
     public function init()
     {
         parent::init();
-
     }
 
     public function run()
     {
-        return $this->render($this->view);
+        return $this->render('view');
     }
 }

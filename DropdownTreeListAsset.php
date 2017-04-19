@@ -4,7 +4,7 @@
  * Time: 14:05
  */
 
-namespace insperedia\treedropdown;
+namespace insperedia\TreeDropdown;
 
 use yii\web\AssetBundle;
 
