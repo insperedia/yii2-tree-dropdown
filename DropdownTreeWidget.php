@@ -1,6 +1,6 @@
 <?php
 
-namespace insperedia\TreeDropdown;
+namespace insperedia\treedropdown;
 
 class DropdownTreeWidget extends \yii\base\Widget
 {

@@ -1,11 +1,11 @@
 <?php
 
-use insperedia\TreeDropdown\DropdownTreeListAsset;
+use insperedia\treedropdown\DropdownTreeListAsset;
 
 
 /**
  * @var $this \yii\web\View
- * @var $widget \insperedia\TreeDropdown\DropdownTreeWidget
+ * @var $widget \insperedia\treedropdown\DropdownTreeWidget
  */
 DropdownTreeListAsset::register($this);
 $widget = $this->context;
