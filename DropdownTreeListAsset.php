@@ -13,14 +13,17 @@ class DropdownTreeListAsset extends AssetBundle
     public $sourcePath = __DIR__.'/assets';
 
     public $depends = [
-        'insperedia\treedropdown\TreeListAsset',
+        'yii\web\JqueryAsset',
     ];
 
     public $js = [
         'js/treedropdown.js?v=1',
+        'js/jquery.bonsai.js',
+        'js/jquery.qubit.js',
     ];
 
     public $css = [
         'css/treedropdown.css?v=1',
+        'css/jquery.bonsai.css',
     ];
 }

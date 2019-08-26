@@ -3,6 +3,7 @@
 Dropdown with tree or list of checkboxes.
 This is extension for Yii2 framework. 
 
+
 ## Usage
 
 ```php
@@ -22,4 +23,19 @@ echo \insperedia\treedropdown\DropdownTreeWidget::widget(
     ]
 );
 ?>
+
+OR 
+
+<?php
+
+$form->field($model,'regions')->widget(
+      \app\widget\DropdownTreeList\DropdownTreeWidget::class,
+      [
+          'data' => Yii::$app->geography->regions(),
+          'id' => 'regions'
+      ]
+  )
+                      
+ ?>
+
 ```

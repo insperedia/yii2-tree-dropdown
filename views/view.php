@@ -11,7 +11,7 @@ DropdownTreeListAsset::register($this);
 $widget = $this->context;
 $customid = $widget->id;
 $selectedItems = $widget->model->{$widget->attribute};
-$name = \yii\helpers\Html::getInputName($widget->model, 'regions');
+$name = \yii\helpers\Html::getInputName($widget->model, $widget->attribute);
 ?>
 
     <div class="treedropdown-control <?= $customid ?>">
@@ -36,7 +36,7 @@ $name = \yii\helpers\Html::getInputName($widget->model, 'regions');
                 ?>
 
             </ol>
-            <a class="treeview-clear" onclick="treeDropdown.clear('<?= $customid ?>')">Rensa</a>
+            <a class="treeview-clear" onclick="treeDropdown.clear('<?= $customid ?>')"><?= Yii::t("app", "Clear") ?></a>
         </div>
     </div>
 
